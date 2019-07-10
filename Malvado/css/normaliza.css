@@ -1,0 +1,6 @@
+*{margin: 0; padding: 0; box-sizing: border-box; outline: 0;  text-decoration: none; list-style-type: none; border: none;}
+img, video {max-width: 100%;} 
+img {border: 0;}
+body {background-color:#fff; }
+article,aside,footer,header,nav,section,figcaption,figure,main { display: inline-block;}
+audio,video {display: inline-block;}

@@ -1,0 +1,43 @@
+.cabecalho{width: 100%; height: auto; background-color:#333333;}
+.cabecalho h2{ color: #D1D1D1; text-align: center; font-family: sans-serif; 
+	font-size: 1.6rem; padding-top: 2%; padding-bottom: 2%;} 
+.cabecalho h2 span{color: #FD8A00;}
+
+
+.menu {width: 100%; height: auto; background-color:#0099FF;}
+.menu ul li {display:inline-block; position:relative; left:400px; 
+	font-family:sans-serif; padding-left: 2%; padding-top:1%; 
+padding-bottom:1%; color:white;}
+
+/*BANER*/
+main{width: 100%; height: auto; margin-top: 2%;}
+main .banner{ text-align: center;}
+/*END BANER*/
+
+/*CORPO*/
+.corpo{width: 60%; height: auto;  margin-top: 5%; margin-left: 2%; position: relative;}
+
+.w1{float: left; width: 250px; height:170px;   margin-top: 1%; margin-left: 1%;}
+
+.w1 p {background-color: black; color: #FD8A00; font-family: Arial; text-align: justify;}
+
+.pad{padding: 1px; border: 1px solid black ; width: 100%;}
+
+.mover{margin-left: 2%;}
+
+/*END CORPO*/
+
+.container-right{width: 25%; height: auto; float: right; background-color: cyan; 
+	position: relative; margin-right: 5%; margin-top: 5%;}
+.container-right h1{background-color:#333333; text-align: center; padding-top: 2%; padding-bottom: 2%; 
+	font-family: sans-serif; color: #FD8A00;}
+.videos{margin-left: 5%;}
+.videos p{text-align: center; font-family: Arial; background-color: black; color:#FD8A00; padding-top: 2%; padding-bottom: 2%; width:300px;}
+
+/*RODAPÉ*/
+
+.rodape{width: 100%; height: auto; background-color: #161616; display: block; position: absolute; clear: both; margin-top: 3%; 
+font-family: sans-serif;}
+.rodape p {color: white; margin-left: 5%; padding-bottom: 2%; padding-top: 2%; font-size: 80%; text-align: center;}
+.rodape a {color: yellow;}
+.rodape span {color: yellow;}

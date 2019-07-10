@@ -1,0 +1,64 @@
+
+/*********************
+  Media Query Classes
+**********************/
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) 
+{
+	.cabecalho h2 {width: 100%; font-size: 2rem; padding-top: 4%; padding-bottom: 4%;}
+
+  .menu {margin-top: 1%;}
+  .menu ul li {display: block; left: 0; text-align: center; border-bottom: 1px solid yellow; }
+
+  .corpo{width: 100%; margin-left: 0;}
+  .w1{width: 100%; margin-left: 0;}
+
+  .container-right{display: block; width: 100%; margin-right: 0;}
+
+  .videos{margin-left: 0;}
+  .videos p {width: 100%;}
+
+  .rodape p{margin-left: 2%; padding-bottom: 5%; padding-top: 5%;}
+}
+
+
+/* Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+	.w1{width: 200px; margin-left: 2%;}
+	.videos{margin-left:0}
+	.videos p{margin-left: 15%; width: 300px;}
+	video{width: 500px; margin-left: 15%; }
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	.menu ul li {left: 20%; }
+
+  .corpo{width: 95%; margin-left: 2%;}
+  .w1{width: 300px; margin-left: 2%;}
+  .container-right{display: block; width: 100%; margin-right: 0;}
+
+  .videos{margin-left:0; display: block;}
+	video{width: 300px; }
+	.videos p{float: left; }
+}
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) 
+{
+	.corpo{width: 60%;}
+	.w1{width: 277px; margin-left: 1%;}
+}
+
+
+/*Large Layout: 1350px*/
+@media only screen and (min-width: 1200px) and (max-width:1350px)
+{
+	.w1{width: 270px;}
+}
